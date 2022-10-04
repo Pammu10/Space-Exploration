@@ -1,0 +1,48 @@
+@font-face {
+    font-family: Space;
+    src: url("fonts/Orbitron-VariableFont_wght.ttf");
+}
+
+body {
+    margin: 0px;
+    color: #82a5ca;
+    text-align: center;
+    font-family: 'Space';
+    
+}
+
+.hero {
+    font-size: larger;
+    background-image: url("images/galaxy.webp");
+    background-size: cover;
+    background-position-y: bottom;
+    padding: 300px 0px 200px 0px;
+    text-shadow: 0px 0px 4px black;
+    
+}
+
+#logo {
+    width: 200px;
+    margin-left: 50px;
+    margin-top: 20px;;
+}
+
+.btn {
+    padding: 6px 12px;
+    background: white;
+    border: none;
+    font-family: inherit;
+    font-weight: bold;
+    
+}
+
+.exp {
+    color: #DD7596;
+    text-decoration: underline #82a5ca;
+    text-underline-offset: 5px;
+    text-shadow: 0px 0px 2px white;
+}
+
+.terms {
+    text-shadow: 0px 0px 1px black;
+}
